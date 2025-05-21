@@ -1,0 +1,16 @@
+[package]
+name = "zed_i18n_importer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+async-trait = "0.1"
+futures = "0.3"
+gpui = { path = "../gpui" }
+reqwest = { version = "0.11", features = ["json"] }
+tempfile = "3.8"
+tokio = { version = "1.0", features = ["full"] }
+zip = "0.6"
+zed_i18n = { path = "../i18n" }
+zed_i18n_tools = { path = "../i18n_tools" } 

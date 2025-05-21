@@ -1,0 +1,23 @@
+[package]
+name = "i18n-zh-cn"
+version = "0.1.0"
+edition.workspace = true
+publish = false
+license = "MIT"
+authors = ["Zed社区中文翻译团队"]
+description = "Zed 编辑器简体中文界面支持"
+
+[lints]
+workspace = true
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow.workspace = true
+async-trait.workspace = true
+futures.workspace = true
+serde = { workspace = true, features = ["derive"] }
+serde_json.workspace = true
+zed_extension_api = { path = "../../crates/extension_api" }

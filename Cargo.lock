@@ -18659,6 +18659,7 @@ dependencies = [
  "workspace",
  "workspace-hack",
  "zed_actions",
+ "zed_i18n",
  "zeta",
  "zlog",
  "zlog_settings",
@@ -18714,6 +18715,26 @@ name = "zed_html"
 version = "0.2.1"
 dependencies = [
  "zed_extension_api 0.1.0",
+]
+
+[[package]]
+name = "zed_i18n"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "fs",
+ "futures 0.3.31",
+ "gpui",
+ "lazy_static",
+ "lru",
+ "once_cell",
+ "parking_lot",
+ "schemars",
+ "serde",
+ "serde_json",
+ "settings",
+ "sys-locale",
+ "thiserror 1.0.69",
 ]
 
 [[package]]

@@ -1,0 +1,20 @@
+[package]
+name = "zed_i18n"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+futures = "0.3"
+gpui = { path = "../gpui" }
+lru = "0.12"
+once_cell = "1.19"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+settings = { path = "../settings" }
+schemars = "0.8"
+fs = { path = "../fs" }
+sys-locale = "0.3"
+lazy_static = "1.4"
+thiserror = "1.0"
+parking_lot = "0.12"

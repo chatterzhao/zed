@@ -1,0 +1,8 @@
+[package]
+name = "zed_i18n_selector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpui = { path = "../gpui" }
+zed_i18n = { path = "../i18n" } 

@@ -201,6 +201,11 @@ publish = false
 edition = "2024"
 
 [workspace.dependencies]
+zed_i18n = { path = "crates/i18n" }
+zed_i18n_selector = { path = "crates/i18n_selector" }
+zed_i18n_tools = { path = "crates/i18n_tools" }
+zed_i18n_importer = { path = "crates/i18n_importer" }
+zed_i18n_extension = { path = "crates/i18n_extension" }
 
 #
 # Workspace member crates

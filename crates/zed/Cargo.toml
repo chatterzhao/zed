@@ -99,6 +99,7 @@ proto.workspace = true
 recent_projects.workspace = true
 release_channel.workspace = true
 remote.workspace = true
+zed_i18n.workspace = true
 repl.workspace = true
 reqwest_client.workspace = true
 rope.workspace = true

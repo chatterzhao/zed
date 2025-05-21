@@ -1,0 +1,17 @@
+id = "i18n-zh-cn"
+name = "Chinese Simplified Language Pack"
+description = "简体中文语言包 - Chinese Simplified Language Pack for Zed"
+version = "0.1.0"
+schema_version = 1
+authors = ["Zed社区中文翻译团队"]
+repository = "https://github.com/zed-i18n/i18n-zh-cn"
+categories = ["i18n"]  # 国际化扩展类型
+
+[i18n]
+locale = "zh-CN"  # 国际化语言代码
+display_name = "简体中文 (Chinese Simplified)"
+rtl = false
+
+[lib]
+kind = "Rust"
+version = "0.5.0" 
